@@ -1,0 +1,143 @@
+body {
+    background-color: #4b92a3; /* Replace with your desired background color */
+    margin: 0; /* Remove default margin to fill the entire viewport */
+    padding: 0; /* Remove default padding to fill the entire viewport */
+    
+}
+#container {
+    display: flex;
+    flex-direction: column; /* Set the direction to column for vertical layout */
+    /*align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+#dude {
+    display: flex;
+    /*flex-direction: column; /* Set the direction to column for vertical layout */
+    align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+#image text {
+    display: flex;
+    flex-direction: row; /* Set the direction to column for vertical layout */
+    /*align-items: center; /* Center the images horizontally */
+    /*justify-content: center; /* Center the images vertically */
+    /*height: 100vh; /* Use 100% of the viewport height */
+}
+
+#baner {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    width: 100%;
+    height: 24vh;
+    background-color: yellow;
+    text-align: center;
+}
+#content {
+    display: flex;
+    flex-direction: row;
+    
+}
+#arrows {
+    background-color: rgb(185, 108, 108);
+    margin-left: auto;
+    max-height: auto;
+}
+#change {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* To center the "table" both horizontally and vertically within "change" */
+    /*height: 100vh; /* Make sure "change" takes up the entire viewport height */
+    width: 100%; /* Make sure "change" takes up the entire viewport width */
+}
+
+#table {
+    background-color: aqua;
+    max-height: 75vh; /* Ensure the image doesn't exceed 75% of the viewport height */
+    max-width: 100%; /* Ensure the image doesn't exceed the container's width */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#yellowflowers {
+    display: none;
+    width: 100%;
+    height: 75vh;
+}
+#Eimages img {
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#imageText {
+    position: relative;
+}
+#lady + p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+#lady {
+    height: 60vh;
+}
+#stairs {
+    height: 60vh;
+}
+#bridge {
+    height: 60vh;
+}
+#redflowers {
+    height: 75vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#arrows {
+    display: flex;
+    flex-direction: column; /* Align "UP" and "DOWN" vertically */
+    align-items: center;
+    width: 3vw;
+}
+#up {
+    margin-top: 200px;
+}
+#text-container {
+    display: none;
+    position: relative;
+    padding: 20px; /* Add padding for spacing around the text */
+    text-align: center; /* Center the text horizontally */
+    color: white; /* Set text color for visibility */
+}
+
+#text-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('images/2.jpeg');
+    background-size: cover; /* Set background-size to cover */
+    background-position: center; /* Adjust as needed */
+    z-index: -1; /* Place the image behind the text */
+}
+.desiderata2 {
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 30px;
+}
+
+p {
+    margin: 0; /* Remove default margin for the <p> element */
+}
+
+
+p {
+    margin: 0; /* Remove default margin for the <p> element */
+}
+
+
